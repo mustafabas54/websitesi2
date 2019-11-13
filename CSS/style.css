@@ -1,0 +1,173 @@
+.carousel{
+  width: 100%;
+}
+
+.carousel-caption{
+  background: rgba(94, 92, 92, .6);
+  border-radius: 10px;
+}
+
+.carousel-description{
+  text-shadow: 5px 5px 20px gray;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.footer{
+  background: rgb(75, 73, 73);
+  color: whitesmoke;
+  padding: 10px 0;
+  text-shadow: 2px 2px 10px black;
+}
+
+.footer-section{
+  border-right: solid 1px lightgray;
+}
+.resmim{
+  width: 100%; 
+}
+#ben {
+  border: 2px solid black;
+  border-radius: 30px;
+}
+.jumbotron {
+  background: rgb(66,75,75);
+  background: radial-gradient(circle, rgba(66,75,75,1) 2%, rgba(134,130,127,1) 82%);
+  color: rgb(0, 0, 0);
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 300;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: center;
+}
+.collapse {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 8px;
+  background: rgb(66,75,75);
+background: radial-gradient(circle, rgba(66,75,75,1) 0%, rgba(198,194,190,1) 68%, rgba(66,75,75,1) 100%);
+}
+.nav-link:hover {
+  background: rgb(146, 146, 143);
+  border-radius: 8px; 
+}
+
+body  {
+
+  background: rgb(177, 177, 177);
+}
+#arkaplan {
+  position: absolute;
+  opacity: 0.2;
+  border: 2px solid rgb(66, 65, 65);
+  border-radius: 30px ;
+  top: 0;
+  left: 0;
+}
+.container {
+  display: block;
+}
+#mb {
+  width: 90px;
+  height: 50px;
+
+}
+#baslik {
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 7px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-img-top:hover {
+  transform: scale(1.15);
+  transition-duration: 2.0s;
+}
+.card {
+  overflow: hidden;
+  background: rgb(190, 189, 189);
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.navbar-nav ul{
+  list-style: none;
+
+}
+.navbar-nav li {
+  display: inline-block ;
+  text-align: center;
+}
+.navbar-nav li ul {
+  display: none;
+  position: absolute;
+  background: gray;
+  color: rgb(51, 50, 50);
+}
+.navbar-nav a {
+  display: block;
+  text-decoration: none;
+}
+.navbar-nav li:hover ul {
+  display: block;
+}
+.navbar-nav li ul li {
+  display: block;
+  text-align: center;
+}
+.navbar-nav li ul a {
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+  display: block;
+  padding: 8px;
+  position: relative;
+}
+.navbar-nav li ul a:hover {
+  background: gray;
+  color: rgb(51, 50, 50);
+}
+
